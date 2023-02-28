@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav>
+      <header>Dow's Website</header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <form action="#" method="post">
+        <h1>Registration Form</h1>
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="firstname">First Name:</label>
+          <input type="text" id="firstname" name="firstname" required />
+
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="lastname" name="lastname" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </fieldset>
+
+        <fieldset>
+          <legend>Account Information</legend>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+          />
+        </fieldset>
+
+        <input type="submit" value="Register" />
+      </form>
+    </div>
+  </body>
+</html>
